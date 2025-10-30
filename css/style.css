@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EFC6C0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background: linear-gradient(to right, #2ab7a8, #6a5acd);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #b8b9be, -10px -10px 20px #ffffff;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.container .input-box{
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.input-box .eye{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #3D97D3;
+    cursor: pointer;
+}
+
+.container .input-box input{
+    width: 100%;
+    padding: 2%;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+
+.container .input-box label{
+    color: #fff;
+}
+
+.container .remeber-me{
+    position: relative;
+    bottom: 25px;
+    justify-content: space-around;
+}
+
+.container .register-box{
+    position: relative;
+    top: 10px;
+    right: -10%;
+    justify-content: space-around;
+}
+
+
+.remeber-me{
+    position: relative;
+}
+
+.forgot-password-link{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+}
+
+.remeber-me,
+.forgot-password-link{
+    color: #fff;
+}
+
+
+.register-box,
+.register-account-link{
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+.btn{
+    width: 100%;
+    padding: 2%;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3D97D3;
+    cursor: pointer;
+
+}
